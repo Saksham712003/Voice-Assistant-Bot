@@ -16,7 +16,7 @@ app.add_middleware(
 # OpenRouter client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"  # your key
+    api_key="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"  # your key
 )
 
 class Prompt(BaseModel):
